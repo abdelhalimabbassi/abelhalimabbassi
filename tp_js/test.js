@@ -3,7 +3,7 @@ function test_age(){
     if (age<18)
        {
 
-            Document.write("attention accésrefusé, vous étes mineurs");
+            Document.write("attention accés refusé, vous étes mineurs");
             document.body.style.background ="red";
        }
        else

@@ -9,65 +9,63 @@ label{
 }
 
 .toggle-label {
-    display: none; /* Masque le menu par défaut */
+    display: none; 
 }
     
 nav {
-    background-color: #333; /* Couleur de fond sombre */
+    background-color: #333; 
     overflow: hidden; 
-    text-align: center; /* Centre le texte dans la barre de navigation */
+    text-align: center; 
 }
     
 nav > ul {
-    list-style-type: none; /* Retire les puces des éléments de liste */
-    padding: 0; /* Supprime le padding par défaut */
-    margin: 0; /* Supprime la marge par défaut */
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
 }
     
 nav > ul > li {
-    padding: 15px 30px; /* Espace autour des éléments du menu */
-    float: left; /* Aligne les éléments du menu horizontalement */
+    padding: 15px 30px; 
+    float: left; 
 }
     
 nav > ul > li > a {
-    text-decoration: none; /* Retire le soulignement des liens */
-    padding: 10px 20px; /* Espace intérieur des liens */
-    display: inline-block; /* Permet de contrôler le padding et la taille */
+    text-decoration: none; 
+    padding: 10px 20px; 
+    display: inline-block; 
 }
     
-    /* Styles pour les sous-menus */
 .submenu {
-    list-style-type: none; /* Retire les puces des sous-menus */
-    display: none; /* Masque les sous-menus par défaut */
-    background-color: #444; /* Couleur de fond des sous-menus */
-    position: absolute; /* Permet de superposer les sous-menus */
-    z-index: 100; /* Assure que les sous-menus sont au-dessus des autres éléments */
+    list-style-type: none; 
+    display: none; 
+    background-color: #444; 
+    position: absolute; 
+    z-index: 100; 
 }
     
 nav > ul > li:hover .submenu {
-    display: block; /* Affiche le sous-menu au survol */
+    display: block; 
 }
     
 nav > ul > li:hover a {
-    padding: 15px 30px 20px 30px; /* Modifie le padding lors du survol */
+    padding: 15px 30px 20px 30px; 
 }
     
-    /* Effets de survol pour les éléments du menu principal */
 .html:hover {
-    border-top: 5px solid #FF6347; /* Bordure en haut pour HTML */
+    border-top: 5px solid #FF6347; 
 }
     
 .js:hover {
-    border-top: 5px solid #FFD700; /* Bordure en haut pour JavaScript */
+    border-top: 5px solid #FFD700; 
 }
     
-    .bdd:hover {
-        border-top: 5px solid #3CB371; 
-    }
+.bdd:hover {
+    border-top: 5px solid #3CB371; 
+}
     
-    .php:hover {
-        border-top: 5px solid #FF4500; 
-    }
+.php:hover {
+    border-top: 5px solid #FF4500; 
+}
     
 .mission:hover {
     border-top: 5px solid #8A2BE2; 
@@ -127,216 +125,3 @@ nav > ul > li:focus-within .submenu {
     display: block; 
     }
 }
-
-
-
-
-
-
-
-
-
-
-/*
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.menu {
-    display: none;
-}
-
-nav {
-    background-color: #333; 
-    overflow: hidden;
-}
-
-
-nav > ul {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-}
-
-nav > ul > li {
-    padding: 15px 30px; 
-    float: left;
-}
-
-nav>ul>li>a{
-    text-decoration: none;
-    padding: 10px 20px;
-    display: inline-block;
-}
-
-.submenu{
-    list-style-type: none; 
-    display: none;
-}
-
-.html:hover {
-    border-top: 5px solid #FF6347; 
-    background-color: #FFEB3B; 
-}
-
-.js:hover {
-    border-top: 5px solid #FFD700; 
-}
-
-.bdd:hover {
-    border-top: 5px solid #3CB371; 
-}
-
-.php:hover {
-    border-top: 5px solid #FF4500; 
-}
-
-.mission:hover {
-    border-top: 5px solid #8A2BE2;  
-}
-
-.Certifications:hover {
-    border-top: 5px solid #2E8B57; 
-}
-
-nav > ul > li{
-    float: left;
-    position: relative;
-}
-
-nav>ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.submenu li a{
-    font-size: 14px;
-    text-decoration: none;
-
-}
-
-nav > ul > li:hover .submenu {
-    display: block; 
-}
-
-nav > ul > li:hover a{
-    padding: 15px 30px 20px 30px;
-}
-
-.submenu li:hover a{
-    color: #1E90FF;
-    font-weight: bold;
-}
-.menu-html .submenu li:hover{
-    background-color: #2E8B57;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-nav{
-    background-color: teal;
-    padding: 10px;
-}
-
-nav > ul{
-    list-style: none;
-}
-
-nav>ul>li{
-    list-style: none;
-    display: inline-block;
-}
-.menu{
-    display: none;
-}
-
-.submenu{
-    display: none;
-}
-nav>ul>li>a{
-    text-decoration: none;
-    padding: 15px  30px;
-}
-.html:hover{
-    border-top: 5px solid pink;
-    background-color: green;
-}
-.js:hover{
-    border-top: 5px solid yellow;
-    background-color: blue;
-}
-.bdd:hover{
-    border-top: 5px solid yellowgreen;
-    background-color: red;
-}
-.php:hover{
-    border-top: 5px solid yellowgreen;
-    background-color: red;
-}
-.mission:hover{
-    border-top: 5px solid yellowgreen;
-    background-color: red;
-}
-.Certifications:hover{
-    border-top: 5px solid yellowgreen;
-    background-color: red;
-}
-nav>ul>li{
-    float: left;
-    position: relative;
-}
-
-nav>ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-
-
-
-
-
