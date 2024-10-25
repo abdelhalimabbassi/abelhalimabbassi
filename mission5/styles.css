@@ -8,8 +8,8 @@ label{
     display: none;
 }
 
-.toggle-label {
-    display: none; 
+.menu-toggle{
+    display: none;
 }
     
 nav {
@@ -124,4 +124,8 @@ nav > ul > li:hover .submenu {
 nav > ul > li:focus-within .submenu {
     display: block; 
     }
+
+.menu-toggle{
+    display: none;
+}
 }
